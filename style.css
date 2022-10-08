@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+#section-top{
+    background-color: black;
+}
+.fa-phone, .fa-envelope, .fa-location-dot{
+    color: rgb(255, 208, 0);
+    margin: 0 15px;
+}
+.link{
+    color: white;
+    font-size: 14pt;
+    white-space: nowrap;
+}
+.link:hover{
+    color: rgb(255, 208, 0);
+
+}
+.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-google, .fa-linkedin{
+    cursor: pointer;
+}
+
+
+.head-down{
+    display: flex;
+    align-items: center;
+}
+.head-down img{
+    padding: 25px 0 25px 15px;
+}
+.navBar{
+    margin-left: 25%;
+}
+.navBar a{
+    font-family: "Oswald";
+    text-transform: uppercase;
+    font-size: 17pt;
+    color: rgb(58, 58, 58);
+}
+.navBar a:hover{
+    color: rgb(255, 140, 0);
+    border-bottom: 2px solid rgb(255, 140, 0);
+    padding-bottom: 25px;
+}
+.button{
+    margin-left: 25%;
+}
