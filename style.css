@@ -7,12 +7,35 @@
     list-style: none;
 }
 
+body, html{
+    width: 100%;
+    height: 100vh;
+}
+
 #section-top{
     background-color: black;
+    max-width: 100%;
+}
+#container{
+    display: flex;
+    width: 100%;
+    padding: 30px 0px;
+}
+#container:last-child{
+    justify-content: space-between;
+}
+#container .details{
+    display: flex;
+}
+i{
+    font-size: 25px;
+}
+.fa-brands{
+    padding: 0 11px;
 }
 .fa-phone, .fa-envelope, .fa-location-dot{
     color: rgb(255, 208, 0);
-    margin: 0 15px;
+    padding: 0px 15px;
 }
 .link{
     color: white;
@@ -25,30 +48,143 @@
 }
 .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-google, .fa-linkedin{
     cursor: pointer;
+    color: azure;
 }
-
 
 .head-down{
+    background-color: white;
     display: flex;
     align-items: center;
+    max-width: 1800px;
+    width: 100%;
 }
+
 .head-down img{
     padding: 25px 0 25px 15px;
 }
 .navBar{
-    margin-left: 25%;
+    margin: 0 auto;
 }
 .navBar a{
     font-family: "Oswald";
     text-transform: uppercase;
     font-size: 17pt;
     color: rgb(58, 58, 58);
+    padding: 0 10px;
 }
 .navBar a:hover{
     color: rgb(255, 140, 0);
     border-bottom: 2px solid rgb(255, 140, 0);
     padding-bottom: 25px;
 }
-.button{
-    margin-left: 25%;
+#button{
+    font-family: "Oswald";
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 230px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: rgb(255, 155, 33);
+    border-radius: 18em;
+    border: none;
 }
+#button:hover{
+    background-color: rgba(18, 18, 211, 0.842);
+}
+
+#main{
+    background-image: url("swiper-slide-1.jpg");
+    background-position: top center;
+    display: flex;
+}
+#left{
+    margin-left: 50px;
+}
+#left h2{
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 3.3em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+#left p{
+    color: white;
+    padding-top: 50px;
+    font-size: 1.2em;
+    font-weight: 50;
+    letter-spacing: .3px;
+}
+#left button{
+    font-family: "Oswald";
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding: 9px 60px;
+    border-radius: 15em;
+}
+#left button:hover{
+    background-color: rgb(255, 155, 33);
+    border: 2px solid rgb(255, 155, 33);
+}
+
+#right{
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-top: 65px;
+    margin-left: 230px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#right h2{
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 20pt;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+label{
+    display: block;
+    font-size: .8em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    color: gray;
+}
+input[type=text]{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 58px;
+    font-weight: 100;
+    border-radius: 15em;
+    font-family: "Oswald";
+    letter-spacing: 2px;
+    font-size: 16pt;
+    padding: 10px 30px;
+}
+.to{
+    margin-top: 15px;
+}
+#date{
+    width: 250px;
+    height: 58px;
+    border-radius: 15em;
+    outline: none;
+    border: none;
+    font-size: 17pt;
+}
+.input-inline{
+    display: flex;
+}
+

@@ -14,26 +14,36 @@
 <body>
     <header>
         <section id="section-top">
-            <div id="details">
-                <i class="fa-solid fa-phone fa-2x"></i>
-                <a href="#" class="link">(11)99788-9823, 5582-8262</a>
-                <i class="fa-solid fa-location-dot fa-2x"></i>
-                <a href="#" class="link">2130 Fulton Street, San Diego, CA 94117-1080 USA</a>
-                <i class="fa-solid fa-envelope fa-2x"></i>
-                <a href="#" class="link">mail@demolink.org</a>
-                <i class="fa-brands fa-facebook-f fa-lg"></i>
-                <i class="fa-brands fa-twitter fa-lg"></i>
-                <i class="fa-brands fa-instagram fa-lg"></i>
-                <i class="fa-brands fa-google fa-lg"></i>
-                <i class="fa-brands fa-linkedin fa-lg"></i>
-            </div>
-            <div id="social-media">
-                
+            <div id="container">
+                <div class="details">
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="#" class="link">(11)99788-9823, 5582-8262</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="#" class="link">2130 Fulton Street, San Diego, CA 94117-1080 USA</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="#" class="link">mail@demolink.org</a>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
             </div>
         </section>
         <section class="head-down">
             <div>
-                <img src="logo.png" alt="Logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Logo">
+                </a>
+                
             </div>
             <nav class="navBar">
                 <a href="#">Home</a>
@@ -41,51 +51,55 @@
                 <a href="#">Contact</a>
                 <a href="#">Typography</a>
             </nav>
-            <div class="button">
-                <button>Book a tour now</button>
-            </div>
+            <button id="button">Book a tour now</button>
         </section>
     </header>
     <main>
         <section id="main">
-            <div id="img">
-                <img src="swiper-slide-1.jpg" alt="Fundo">
-            </div>
-            <div>
-                <h2>Hundred of amazing destination</h2>
-                <p>We offer a variety of destinations to travel to, ranging from exotic to some extreme ones. They include very popular countries and cities like Paris, Rio de Janeiro, Cairo and a lot of others.</p>
+            <div id="left">
+                <h2>Hundreds of amazing<br>destination</h2>
+                <p>We offer a variety of destinations to travel to, ranging from exotic to some<br>
+                extreme ones. They include very popular countries and cities like Paris, Rio<br>
+                de Janeiro, Cairo and a lot of others.</p>
                 <button>Learn More</button>
             </div>
-            <div>
+            <div id="right">
                 <h2>Find your tour</h2>
-                <form>
-                    <div>
+                <form id="form">
+                    <div class="from">
                         <label for="from">From</label>
                         <input type="text" name="from" id="from">
                     </div>
-                    <div>
+                    <div class="to">
                         <label for="to">To</label>
                         <input type="text" name="to" id="to">
                     </div>
-                    <div>
-                        <label for="date">Depart Date</label>
-                        <input type="date" name="date" id="date">
+                    <div class="input-inline">
+                        <div>
+                            <label for="date">Depart Date</label>
+                            <input type="text" id="date" placeholder="00/00/0000">
+                        </div>
+                        <div class="duration">
+                            <label for="duration">Duration</label>
+                            <select id="duration">
+                                <option value="any">Any Length</option>
+                                <option value="2">2 days</option>
+                                <option value="3">3 days</option>
+                                <option value="4">4 days</option>
+                            </select>
+                        </div>   
                     </div>
-                    <div>
-                        <label for="duration">Duration</label>
-                        <input type="text" name="duration" id="duration">
+                    <div class="input-inline">
+                        <div>
+                            <label for="adults">Adults</label>
+                            <input type="number" name="adults" id="adults" min="0" max="300">
+                        </div>
+                        <div>
+                            <label for="children">Children</label>
+                            <input type="number" name="children" id="children" min="0" max="300">
+                        </div>
                     </div>
-                    <div>
-                        <label for="adults">Adults</label>
-                        <input type="number" name="adults" id="adults" min="0" max="300">
-                    </div>
-                    <div>
-                        <label for="children">Children</label>
-                        <input type="number" name="children" id="children" min="0" max="300">
-                    </div>
-                    <div>
-                        <button>Search Flight</button>
-                    </div>
+                    <button>Search Flight</button>
                 </form>
             </div>
         </section>
