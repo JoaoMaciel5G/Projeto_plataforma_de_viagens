@@ -88,6 +88,8 @@ i{
     background-color: rgb(255, 155, 33);
     border-radius: 18em;
     border: none;
+    cursor: pointer;
+    color: white;
 }
 #button:hover{
     background-color: rgba(18, 18, 211, 0.842);
@@ -96,6 +98,7 @@ i{
 #main{
     background-image: url("swiper-slide-1.jpg");
     background-position: top center;
+    background-size: cover;
     display: flex;
 }
 #left{
@@ -128,6 +131,7 @@ i{
     font-size: 1.2em;
     padding: 9px 60px;
     border-radius: 15em;
+    cursor: pointer;
 }
 #left button:hover{
     background-color: rgb(255, 155, 33);
@@ -141,6 +145,7 @@ i{
     margin-left: 230px;
     padding-left: 40px;
     padding-right: 40px;
+    margin-bottom: 65px;
 }
 
 #right h2{
@@ -149,7 +154,6 @@ i{
     font-size: 20pt;
     text-transform: uppercase;
     padding-top: 40px;
-    padding-bottom: 20px;
 }
 label{
     display: block;
@@ -157,8 +161,10 @@ label{
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
-    padding: 10px 25px;
+    padding-left: 25px;
     color: gray;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 input[type=text]{
     background-color: rgb(255, 255, 255);
@@ -171,18 +177,64 @@ input[type=text]{
     font-family: "Oswald";
     letter-spacing: 2px;
     font-size: 16pt;
-    padding: 10px 30px;
-}
-.to{
-    margin-top: 15px;
+    padding-left: 20px;
 }
 #date{
-    width: 250px;
+    width: 240px;
     height: 58px;
     border-radius: 15em;
     outline: none;
     border: none;
     font-size: 17pt;
+}
+#duration{
+    width: 240px;
+    height: 58px;
+    border-radius: 15em;
+    border: none;
+    outline: none;
+    font-size: 17pt;
+    font-family: "Oswald";
+    padding-left: 30px;
+    margin-left: 20px;
+}
+#adults{
+    width: 240px;
+    height: 58px;
+    border-radius: 15em;
+    outline: none;
+    border: none;
+    font-size: 17pt;
+}
+#children{
+    width: 240px;
+    height: 58px;
+    border-radius: 15em;
+    border: none;
+    outline: none;
+    font-size: 17pt;
+    font-family: "Oswald";
+    padding-left: 30px;
+    margin-left: 20px;
+}
+form button{
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    width: 500px;
+    background-color: rgb(255, 155, 33);
+    height: 60px;
+    border-radius: 15em;
+    cursor: pointer;
+    color: white;
+    font-family: "Oswald";
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+form button:hover{
+    background-color: rgba(18, 18, 211, 0.842);
 }
 .input-inline{
     display: flex;
