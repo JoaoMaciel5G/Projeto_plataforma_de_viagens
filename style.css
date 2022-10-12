@@ -83,7 +83,7 @@ i{
     text-transform: uppercase;
     font-weight: 500;
     width: 230px;
-    height: 50px;
+    height: 60px;
     margin-right: 10px;
     background-color: rgb(255, 155, 33);
     border-radius: 18em;
@@ -237,6 +237,56 @@ form button:hover{
     background-color: rgba(18, 18, 211, 0.842);
 }
 .input-inline{
+    display: flex;
+}
+
+
+#tour{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 180px;
+    padding-bottom: 70px;
+    background-color: rgb(255, 249, 249);
+}
+#tour h2{
+    font-family: "Oswald";
+    font-size: 3em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.842);
+    margin-left: 150px;
+    letter-spacing: 2px;
+}
+#tour button{
+    width: 230px;
+    height: 60px;
+    background-color: rgb(255, 155, 33);
+    border-radius: 18em;
+    border: none;
+    outline: none;
+    font-family: "Oswald";
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 30px;
+}
+#tour button:hover{
+    background-color: rgba(18, 18, 211, 0.842);
+}
+#galery{
+    display: flex;
+}
+#location-price{
+    display: flex;
+    justify-content: space-between;
+}
+#location-and-price{
+    display: flex;
+    justify-content: space-between;
+}
+#galery-down{
     display: flex;
 }
 
