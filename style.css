@@ -96,7 +96,7 @@ i{
 }
 
 #main{
-    background-image: url("swiper-slide-1.jpg");
+    background-image: url("/assets/swiper-slide-1.jpg");
     background-position: top center;
     background-size: cover;
     display: flex;
